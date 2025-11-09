@@ -11,8 +11,8 @@ export default defineConfig({
   base: APP_BASE_PATH ? `/${APP_BASE_PATH}/` : '/',
 
   lang: 'zh-CN',
-  title: '茂茂物语',
-  description: '茂茂的成长之路，包含前端常用知识、源码阅读笔记、各种奇淫技巧、日常提效工具等',
+  title: "Floydの导航站",
+  description: "存放一些常用站点",
   head,
 
   lastUpdated: true,
@@ -27,7 +27,7 @@ export default defineConfig({
   themeConfig: {
     i18nRouting: false,
 
-    logo: '/logo.png',
+    logo: '/logo.gif',
 
     nav,
     sidebar,
@@ -38,11 +38,16 @@ export default defineConfig({
       label: '目录',
     },
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com/maomao1996/vitepress-nav-template' }],
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/codeNoob2281' },
+      { icon: 'bilibili', link: 'https://space.bilibili.com/38375370' },
+      { icon: 'qq', link: 'https://wpa.qq.com/msgrd?v=3&uin=2281461058&site=qq&menu=yes' },
+      { icon: 'gmail', link: 'mailto:2281461058@qq.com' }
+    ],
 
     footer: {
       message: '如有转载或 CV 的请标注本站原文地址',
-      copyright: 'Copyright © 2019-present maomao',
+      copyright: 'Copyright © 2025-present Floyd<br>Powered by <a href="https://github.com/maomao1996/vitepress-nav-template" target="_blank">maomao导航主题</a> and <a href="https://vitepress.dev" target="_blank">VitePress</a>',
     },
 
     lastUpdated: {
@@ -66,14 +71,14 @@ export default defineConfig({
 
     /*** 自定义配置 ***/
     visitor: {
-      badgeId: 'maomao1996.vitepress-nav-template',
+      badgeId: 'floyd.netcpu.top',
     },
 
     comment: {
-      repo: 'maomao1996/vitepress-nav-template',
-      repoId: 'R_kgDOJC09Jg',
+      repo: 'codeNoob2281/floyd-navigation',
+      repoId: 'R_kgDOQSCcfQ',
       category: 'Announcements',
-      categoryId: 'DIC_kwDOJC09Js4Cekn0',
+      categoryId: 'DIC_kwDOQSCcfc4CxmA3',
     },
   },
 
