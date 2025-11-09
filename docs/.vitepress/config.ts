@@ -39,7 +39,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/codeNoob2281' },
+      { icon: 'github', link: 'https://github.com/codeNoob2281/floyd-navigation' },
       { icon: 'bilibili', link: 'https://space.bilibili.com/38375370' },
       { icon: 'qq', link: 'https://wpa.qq.com/msgrd?v=3&uin=2281461058&site=qq&menu=yes' },
       { icon: 'gmail', link: 'mailto:2281461058@qq.com' }
