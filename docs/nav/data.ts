@@ -30,7 +30,7 @@ export const NAV_DATA: NavData[] = [
     ],
   },
   {
-    title: 'Minecraft资源',
+    title: 'Minecraft资源—Java版',
     items: [
       {
         icon: 'https://modrinth.com/favicon-light.ico',
@@ -47,6 +47,27 @@ export const NAV_DATA: NavData[] = [
         title: 'SpigotMC',
         link: 'https://www.spigotmc.org',
       },
+      {
+        icon: 'https://bbsmc.net/favicon-light.ico',
+        title: 'BBSMC',
+        link: 'https://bbsmc.net',
+      }
+    ]
+  },
+  {
+    title: 'Minecraft资源—基岩版',
+    items: [
+
+      {
+        icon: 'https://klpbbs.com/template/comiis_app/comiis/img/favicon.ico',
+        title: '苦力怕论坛',
+        link: 'https://klpbbs.com',
+      },
+      {
+        icon: 'https://www.minebbs.com/data/assets/logo/favicon.webp',
+        title: 'MineBBS',
+        link: 'https://www.minebbs.com',
+      }
     ]
   },
   {
