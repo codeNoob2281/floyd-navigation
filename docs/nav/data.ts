@@ -91,19 +91,19 @@ export const NAV_DATA: NavData[] = [
     title: '个人站点',
     items: [
       {
-        icon: 'https://blog.netcpu.top/upload/logo.png',
+        icon: 'https://blog.floydzero.cloud/upload/logo.png',
         title: 'Floyd的博客',
-        link: 'https://blog.netcpu.top/',
+        link: 'https://blog.floydzero.cloud/',
       },
       {
         icon: 'https://res.oplist.org/logo/logo.svg',
         title: 'Floyd的网盘',
-        link: 'https://floyd.netcpu.top:5245/',
+        link: 'http://fcloud.floydzero.cloud/',
       },
       {
         icon: 'https://img.fastmirror.net/s/2025/10/21/68f7a5d49a0d5.png',
         title: '服务器节点状态监控',
-        link: 'https://blog.netcpu.top:8000',
+        link: 'https://nzmonitor.floydzero.cloud',
       },
     ],
   },

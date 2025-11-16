@@ -15,7 +15,7 @@ hero:
       link: /nav/
     - theme: alt
       text: 访问博客
-      link: https://blog.netcpu.top
+      link: https://blog.floydzero.cloud
       target: _blank
 
 features:

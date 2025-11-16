@@ -71,7 +71,7 @@ export default defineConfig({
 
     /*** 自定义配置 ***/
     visitor: {
-      badgeId: 'floyd.netcpu.top',
+      badgeId: 'floyd.floydzero.cloud',
     },
 
     comment: {
